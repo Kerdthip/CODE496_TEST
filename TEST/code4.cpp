@@ -11,7 +11,7 @@ using namespace std;
 // }
 
 void test2D(int nx, int ny, double **p){
-  
+  //  cout << "Ready!!" << "\n"; 
   for(int i = 0; i < nx; i++){
     for(int j = 0; j < ny; j++){
       cout << p[i][j];
